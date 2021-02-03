@@ -1,0 +1,30 @@
+{
+"instructions_readme": "1) Open Chrome, 2) go to chrome://tracing, 3) click Load, 4) navigate to this file.",
+"traceEvents":[
+{ "cat":"", "pid":1, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"tundra" } }
+,{ "pid":1, "tid":0, "ts":43580774923, "dur":4582, "ph":"X", "name": "DriverCheckDagSignatures",  "args": { "durationMS":5, "detail":"" }}
+,{ "pid":1, "tid":0, "ts":43580779505, "dur":196, "ph":"X", "name": "DriverInitData",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":1, "tid":0, "ts":43580779743, "dur":7, "ph":"X", "name": "Tundra",  "args": { "durationMS":0, "detail":"PrepareNodes" }}
+,{ "pid":1, "tid":0, "ts":43580779751, "dur":3, "ph":"X", "name": "Tundra",  "args": { "durationMS":0, "detail":"RemoveStaleOutputs" }}
+,{ "pid":1, "tid":0, "ts":43580779755, "dur":390, "ph":"X", "name": "Tundra",  "args": { "durationMS":0, "detail":"BuildQueueInit" }}
+,{ "pid":1, "tid":0, "ts":43616352907, "dur":9283, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":9, "detail":"" }}
+,{ "pid":1, "tid":0, "ts":43616362224, "dur":51, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":1, "tid":0, "ts":43616362307, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":1, "tid":0, "ts":43616362343, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":1, "tid":0, "ts":43616362362, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":1, "tid":0, "ts":43616362365, "dur":5876, "ph":"X", "name": "Tundra",  "args": { "durationMS":6, "detail":"Write AllBuiltNodes" }}
+,{ "pid":1, "tid":1, "ts":43580779930, "dur":234, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":1, "tid":1, "ts":43580780166, "dur":70521, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":71, "detail":"Il2Cpp A:/Projects/Unity/AR_VR_Hello_World/Library/Il2cppBuildCache/Android/arm64-v8a/Native/arm64-v8a/libil2cpp.so" }}
+,{ "pid":1, "tid":1, "ts":43580852301, "dur":35500556, "ph":"X", "name": "Il2Cpp",  "args": { "durationMS":35501, "detail":"A:/Projects/Unity/AR_VR_Hello_World/Library/Il2cppBuildCache/Android/arm64-v8a/Native/arm64-v8a/libil2cpp.so" }}
+,{ "pid":1, "tid":1, "ts":43616352891, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":0, "detail":"all_tundra_nodes" }}
+,{ "pid":1, "tid":1, "ts":43616352898, "dur":11, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":1, "tid":1, "ts":43616352910, "dur":9187, "ph":"X", "name": "Exiting",  "args": { "durationMS":9, "detail":"BuildLoop" }}
+,{ "pid":1, "tid":2, "ts":43580780067, "dur":35572840, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":35573, "detail":"" }}
+,{ "pid":1, "tid":2, "ts":43616352907, "dur":9204, "ph":"X", "name": "Exiting",  "args": { "durationMS":9, "detail":"BuildLoop" }}
+,{ "pid":1, "tid":3, "ts":43580780130, "dur":35572778, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":35573, "detail":"" }}
+,{ "pid":1, "tid":3, "ts":43616352908, "dur":9195, "ph":"X", "name": "Exiting",  "args": { "durationMS":9, "detail":"BuildLoop" }}
+,{ "pid":1, "tid":4, "ts":43580780177, "dur":35572734, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":35573, "detail":"" }}
+,{ "pid":1, "tid":4, "ts":43616352911, "dur":9193, "ph":"X", "name": "Exiting",  "args": { "durationMS":9, "detail":"BuildLoop" }}
+
+]
+}
